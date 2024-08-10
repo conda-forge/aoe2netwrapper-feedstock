@@ -1,5 +1,5 @@
 {% set name = "aoe2netwrapper" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aoe2netwrapper-{{ version }}.tar.gz
-  sha256: 189c979b7d7cb3b5f609796bf87a5cd311df7a078592498d236663765f2a339b
+  sha256: e6d7b2b56bf673b6dc39bd0ce9726750ca6f0d267f5d1068d008bde951ddae3a
 
 build:
   number: 0
